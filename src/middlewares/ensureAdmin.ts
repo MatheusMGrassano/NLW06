@@ -11,6 +11,6 @@ export function ensureAdmin(request: Request, response: Response, next: NextFunc
     }
 
     return response.status(401).json({
-        error: "Permission denied"
+        error: "Permission denied!"
     })
 }
